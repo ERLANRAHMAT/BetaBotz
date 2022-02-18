@@ -51,11 +51,11 @@ AlphaBot = Apikey.AlphaBot
 Leyscoders = Apikey.Leyscoders
 //━━━━━━━━━━━━━━━[  AUTO RESPON ]━━━━━━━━━━━━━━━\\
 
-autorespon = true
-autoread = true
+autorespon = false
+autoread = false
 autocomposing = true
-autorecording = true
-AutoRespon: true
+autorecording = false
+AutoRespon: false
 
 //━━━━━━━━━━━━━━━[  PUBLIC ]━━━━━━━━━━━━━━━\\
 
@@ -67,12 +67,10 @@ namabot = setting.BotName
 namaowner = setting.OwnerName
 nomorowner = setting.OwnerNumber
 website = "https://ramdaniofficial.blogspot.com/?m=1"
-wa = "wa.me/6289512545999"
-ig = "Ramdani store"
-tt = "iFanny Tiktok"
-yt = "Ramdani Official"
-github = "RamdaniStore"
-heroku = "RamdaniOfficial"
+wa = "wa.me/6285803583481"
+ig = "erlanrahmat_14"
+github = "ERLAN RAHMAT"
+heroku = "ERLAN RAHMAT"
 
 //━━━━━━━━━━━━━━━[ Sticker WM ]━━━━━━━━━━━━━━━\\
 
@@ -147,7 +145,7 @@ module.exports = Ramdani = async (Ramdani, mek) => {
 			mess = {
 				daftar: `maaf Kamu Belum Terdaftar Silahkan Daftar Ketik .daftar`,
 				wait: 'Tunggu sebentar dekks....',
-				banned: 'Luh dah di banned awoakawok, chat owner untuk di ruqyah',
+				banned: 'Maaf nomor kamu sudah di banned,silahkan chat owner untuk di unban',
 				success: 'Nih deks jan lupa subscribe https://youtube.com/channel/UCB157jomCne961WzYHpG4gg',
 				error: {
 					stick: 'Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker',
@@ -155,7 +153,7 @@ module.exports = Ramdani = async (Ramdani, mek) => {
 				},
 				only: {
 					group: 'FITUR INI HANYA BISA DIGUNAKAN UNTUK GRUP!!! ❌',
-					premium: 'LUH BUKAN USER PREMIUM, CHAT OWNER UNTUK DI RUQYAH!!!',
+					premium: 'KAMU BUKAN USER PREMIUM, CHAT OWNER UNTUK GO PREMIUM!!!',
 					ownerG: 'FITUR INI HANYA BISA DIGUNAKAN OLEH OWNER GRUP!!! ❌',
 					ownerB: 'FITUR INI HANYA BISA DIGUNAKAN OLEH OWNER BOT!!! ❌',
 					admin: 'FITUR INI HANYA BISA DIGUNAKAN OLEH ADMIN GRUP!!! ❌',
